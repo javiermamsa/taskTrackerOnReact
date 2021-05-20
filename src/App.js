@@ -7,6 +7,8 @@ import About from './components/About'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 
+//const uri = 'https://task-tracker-on-react-default-rtdb.firebaseio.com/tasks';
+
 function App() {
   const [showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([]);
